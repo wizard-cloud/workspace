@@ -214,7 +214,7 @@ const MarketingAgencyLanding = () => {
           {/* Logo M */}
           <div className="mb-8 flex justify-center">
             <img
-              src="/logo.png"
+              src="/logo2.png"
               alt="Logo de la marca"
               className="w-32 md:w-48 lg:w-56 h-auto object-contain"
             />
@@ -319,7 +319,7 @@ const MarketingAgencyLanding = () => {
       <div className="py-20 px-4 bg-black bg-opacity-30">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-orange-400 to-white bg-clip-text text-transparent">
-            Servicios que Impulsan tu Negocio
+            Servicios que Impulsan tu Negocio:
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
