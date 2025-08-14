@@ -180,9 +180,19 @@ const MarketingAgencyLanding = () => {
 
         <div className={`relative z-10 text-center max-w-6xl mx-auto transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           {/* Logo M */}
-          <div className="text-8xl md:text-9xl font-bold mb-8 bg-gradient-to-r from-white to-orange-300 bg-clip-text text-transparent">
-            M
-          </div>
+          <div className="mb-8 flex justify-center">
+  
+	<img
+    src="/logo2.png"
+    
+	alt="Logo de la marca"
+    
+	className="w-32 md:w-48 lg:w-56 h-auto object-contain"
+  
+	/>
+
+</div>
+
 
           {/* Badge */}
           <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-600 to-orange-500 rounded-full text-sm font-medium mb-8">
